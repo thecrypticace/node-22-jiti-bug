@@ -3,7 +3,7 @@ let jiti = createJiti(__filename, { interopDefault: true });
 
 async function run() {
   // 1. Require an file with ESM syntax
-  // 2. The require MUST fail *due to a failed import*
+  // 2. The require MUST fail (potentially b/c of a failed import?)
   // 3. Then we try to import it with Jiti
   let result;
   try {
