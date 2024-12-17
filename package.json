@@ -1,0 +1,7 @@
+{
+  "name": "tailwind-plugins",
+  "private": true,
+  "dependencies": {
+    "jiti": "^2.4.0"
+  }
+}
